@@ -30,10 +30,10 @@ def prim(n, edge, s):
 			Update all neighbours of previous node
 		'''
 		for a in edge:
-			if a[0]==node and a[1] not in mst and weight[a[1]]>weight[node]+a[2]:
-				weight[a[1]] = weight[node]+a[2]
-			elif a[1]==node and a[0] not in mst and weight[a[0]]>weight[node]+a[2]:
-				weight[a[0]] = weight[node]+a[2]
+			if a[0]==node and a[1] not in mst and weight[a[1]]>a[2]:
+				weight[a[1]] = a[2]
+			elif a[1]==node and a[0] not in mst and weight[a[0]]>a[2]:
+				weight[a[0]] = a[2]
 
 		'''
 			Find a new node, not already chosen
