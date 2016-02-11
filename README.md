@@ -1,4 +1,4 @@
-# python-scripts
+# algorithms
 
 kruskal.py: Kruskal algorithm to generate MST
 
@@ -22,5 +22,6 @@ rabin_karp.py: Search for all occurences of a pattern in a string
 
 LCS_LPS.py:
 	Find the longest common subsequence between two strings.
+	
 	Find the longest palindromic subsequence of a string.
 
