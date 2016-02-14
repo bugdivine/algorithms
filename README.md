@@ -24,3 +24,12 @@ LCS_LPS.py:
 	Find the longest common subsequence between two strings.
 	Find the longest palindromic subsequence of a string.
 
+knapsack0_1.py: Knapsack algorithm to find maximum value obtained by picking goods of a particular max weight.
+
+BFS.py: BFS traversal of a graph
+
+DFS.py: DFS traversal of a graph
+
+dijkstra.py: Dijkstra algorithm to find shortest path in a graph
+
+BST.py: Python implementation of a BST with its most commonly used algorithms implemented.
